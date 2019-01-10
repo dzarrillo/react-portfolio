@@ -1,0 +1,312 @@
+/* body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+} */
+
+/* .content {
+  min-height: 100vh;
+  margin: 0 auto -88px;
+  background-image: url("./assets/images//background.png");
+} */
+
+/* header section {
+  width: 960px;
+  margin: 0 auto;
+} */
+
+/* body {
+  font-family: 'Bad Script', cursive;
+  background-image: "./assets/images/vintage-concrete.png";
+} */
+
+p {
+  font-family: 'Bad Script', cursive;
+  
+}
+/* Navbar */
+.myName {
+  height: 65px;
+  padding: 0px 30px 0px 30px;
+  float: left;
+  line-height: 65px;
+  background-color: #4aaaa5;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: whitesmoke;
+}
+.navButton {
+  display: inline-block;
+  height: 100%;
+  line-height: 80px;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 1.1em;
+}
+.navButton a {
+  padding: 0px 30px 0px 30px;
+  color: #999999;
+  text-decoration: none;
+}
+.navButton:hover, a:hover {
+  transform: scale(1.1);
+  color: #4aaaa5;
+}
+.navButton a {
+  border-left: 2px solid #efefef;
+  border-right: 2px solid #efefef;
+}
+
+.mainContent, .sideBar, .skillset {
+  background: url("assets/images/vintage-concrete.png");
+}
+/* About me */
+h1 {
+  font-size: 2em;
+  padding-bottom: 40px;
+  margin-bottom: 20px;
+  font-family: 'Bad Script', cursive;
+}
+
+/* .mainContent p {
+  margin: 16px 0px 16px 0px;
+  text-indent: 30px;
+} */
+
+.mainContent {
+  position: relative;
+  width: 590px;
+  padding: 40px 30px 60px 30px;
+  margin-top: 10px;
+  margin-bottom: 200px;
+  /* background-color: white; */
+  
+  box-shadow: 4px 4px 15px 2px #333333;
+  float: left;
+  /* font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; */
+  color: #777777;
+  font-size: 1.2em;
+  line-height: 2em;
+}
+
+
+.profilePic {
+  width: 240px;
+  height: 240px;
+  float: left;
+  margin: 0px 20px 10px 0px;
+}
+
+/* Footer */
+/* .footer, .push {
+  height: 80px;
+} */
+
+footer {
+  width: 100%;
+  height: 50px;
+  
+  background-color: #4aaaa5;
+  /* position: fixed; */
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: #CCCCCC;
+  /* margin-top: 40px; */
+  margin: 0 auto;
+  border-top: 8px solid #4aaaa5;
+    
+}
+.copyright {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+/* Sidebar */
+.sideBar {
+  width: 210px;
+  padding: 40px 30px 40px 30px;
+  background-color: white;
+  box-shadow: 4px 4px 15px 2px #333333;
+  float: right;
+  
+}
+
+.sideBar a {
+  text-decoration: none;
+}
+.socialIcon {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  margin-top: 20px;
+}
+
+.socialIcon div {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 60px;
+  height: 60px;
+}
+
+.gitHubIconBlack {
+  background-image: url("./assets/images/github_black.png");
+  background-size: contain;
+  transition: opacity .3s ease;
+}
+
+.gitHubIconRed {
+  background-image: url("./assets/images/github_red.png");
+  background-size: contain;
+}
+
+.gitHubIconBlack:hover {
+  opacity: 0;
+}
+
+.middleIcon {
+  margin: 0px 10px 0px 10px;
+}
+
+.linkedinIconBlack {
+  background-image: url("./assets/images/linkedin_black.png");
+  background-size: contain;
+  transition: opacity .3s ease;
+}
+
+/* .linkedinIconRed {
+  background-image: url("./assets/images/linkedin_red.png");
+  background-size: contain;
+} */
+
+.linkedinIconBlack:hover {
+  /* opacity: 0; */
+   background-image: url("./assets/images/linkedin_red.png");
+  background-size: contain;
+}
+
+.stackIconBlack {
+  background-image: url("./assets/images/stackoverflow_black.png");
+  background-size: contain;
+  transition: opacity .3s ease;
+}
+
+.stackIconRed {
+  background-image: url("./assets/images/stackoverflow_red.png");
+  background-size: contain;
+}
+
+.stackIconBlack:hover {
+  opacity: 0;
+}
+
+/* Portfolio */
+.bodyContent {
+  width: 960px;
+  margin: 0 auto;
+ 
+}
+
+.bodyContent::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.mainContent {
+  width: 590px;
+  padding: 40px 30px 40px 30px;
+  margin-bottom: 50px;
+  background-color: white;
+  box-shadow: 4px 4px 15px 2px #333333;
+  float: left;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #777777;
+  font-size: 1.2em;
+  line-height: 2em;
+}
+
+.mainContent p {
+  margin: 16px 0px 16px 0px;
+  text-indent: 30px;
+}
+.thumbnail {
+  position: relative;
+  margin-bottom: 40px;
+  cursor: pointer;
+  transition: all .8s ease;
+}
+
+.thumbnail:hover {
+  transform: scale(1.1);
+}
+
+.thumbnail img {
+  /* max-width: 250px; */
+  width: 250px;
+  height: 200px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.label {
+  position: absolute;
+  bottom: 20px;
+  left: 0px;
+  height: 60px;
+  line-height: 60px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 1.2em;
+  background-color: rgba(74, 170, 165, .7);
+}
+
+/* Contact */
+textarea {
+  resize: none;
+  width: calc(100% - 20px);
+  font-size: 1em;
+  padding: 5px 5px 5px 15px;
+}
+input {
+  width: calc(100% - 20px);
+  padding: 5px 5px 5px 15px;
+  font-size: .8em;
+}
+#submitButton {
+  background-color: #4aaaa5;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  width: auto;
+  padding: 8px 16px 8px 16px;
+  cursor: pointer;
+}
+#submitButton:hover {
+  transform: scale(1.1);
+}
+
+/* SkillSet */
+.skillset{
+  margin-top: 20px;
+  width: 210px;
+  padding: 40px 30px 40px 30px;
+  background-color: white;
+  box-shadow: 4px 4px 15px 2px #333333;
+  float: right;
+  font-family: 'Bad Script', cursive;
+}
+
+.skillset a {
+  text-decoration: none;
+}
