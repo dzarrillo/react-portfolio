@@ -11,14 +11,14 @@ const App = () => (
   <Router>
     <div>
       <Nav></Nav>
-      <Switch>
+      {/* <Switch> */}
         <Route exact path="/" component={About} />
         <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/portfolio" component={Portfolio} />
         <Route component={NoMatch} />
         
-      </Switch>
+      {/* </Switch> */}
       <Footer></Footer>
     </div>
   </Router>
